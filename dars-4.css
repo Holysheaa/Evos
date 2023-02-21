@@ -1,0 +1,192 @@
+body {
+	background: whitesmoke;
+}
+#hp-nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+#hp-nav ul li {
+	margin: auto;
+}
+.select select {
+	padding: 10px 20px;
+}
+.select select img {
+	width: 2px;
+	height: 2px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.button_contanier {
+	width: 90px;
+	height: 40px;
+	background: #e9edc9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.button_contanier .row img {
+	width: 100%;
+	height: 30px;
+}
+.button_contanier p {
+	font-size: 20px;
+}
+#hp-nav ul li a .hp-nav_button {
+	padding: 15px 25px;
+	background: #309b42;
+	border: none;
+	color: white;
+}
+#hp-nav ul li:last-child a {
+	padding: 5px 10px;
+	background:#e9edc9 ;
+}
+.hp-nav {
+	margin-top: 1-px;
+}
+@media screen and (max-width: 768px) {
+	#hp-nav {
+		display: none;
+	}
+	#mp-nav ul {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		list-style: none;
+	}
+	#mp-nav ul li:first-child {
+		margin-right: auto;
+	}
+	#mp-nav ul li a img {
+		width: 60px;
+		height: 40px;
+	}
+	#mp-nav ul li .mp-a {
+		padding: 15px 5px;
+		background:#e9edc9!important;
+		border-radius: 4px;
+	}
+	#mp-nav ul li .mp-a img {
+		margin-bottom: -14px;
+	}
+	.mp-a {
+		margin: 7px;
+	}
+	#mp-nav ul li .mp-a svg {
+		margin-bottom: -6px;
+	}
+	.li2 {
+		margin-top: 6px;
+	}
+	#mp-nav {
+		padding: 10px;
+		background: #07bc0c ;
+	}
+	svg {
+		background: white;
+	}
+	#mp-nav {
+		display: block !important;}
+}
+#mp-nav {
+	display: none;
+}
+.big_lavash {
+	width: 85%;
+	height: 180vh;
+	margin: auto;
+}
+.big_lavash h1 {
+	margin-left: 17px;
+	font-weight: 900;
+	font-size: 45px;
+}
+.big_lavash .lavash {
+	display: flex;
+	margin: auto;
+}
+#big {
+	height: 130vh;
+}
+.big_lavash .lavash .mini_lavash {	
+	width:26%;
+	height:51vh;
+	margin: 10px 16px;
+	background:white;
+	cursor: pointer ;
+	border-radius: 10px;
+}
+.big_lavash .lavash .mini_lavash img {
+	width: 100%;
+	height: 25vh;
+	margin-top: -5px;
+}	
+.big_lavash .lavash .mini_lavash h2 {
+	font-size: 20px;
+	font-weight: 640;
+	margin-left: 14px;
+}	
+.big_lavash .lavash .mini_lavash p {
+	font-weight: 600;
+	color:#6c757d ;
+	margin-left: 14px;
+}
+.big_lavash .lavash .mini_lavash .text {
+	font-size: 19px;
+	font-weight: 700;
+	color:#309b42 ;
+}
+.big_lavash .lavash .mini_lavash .salom {
+	width: 90%;
+	height: 50px;
+	font-weight: 600;
+	font-size: 15px;
+	background-color: whitesmoke;
+	border: .5px;
+	border-radius: 6px;
+	margin: 1px 14px;
+	cursor: pointer;
+}
+.big_lavash .lavash .mini_lavash .salom:hover {
+	background-color: orange;
+}
+#soya {
+	background-color: whitesmoke;
+	cursor: none;
+	background: transparent;
+	box-shadow: none;
+}
+#big {
+	margin-top: -20px;
+	height: 120vh;
+}
+.big_lavash .lavash .mini_lavash:hover {
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+	transition:all .3s ease-out;
+}
+@media screen and (max-width:768px) {
+	.big_lavash {
+		width: 800px;
+	}
+	.lavash {
+		flex-wrap:wrap ;
+	}
+	.mini_lavash {
+		width: 1000px;
+		height: 60px;
+		margin: 100px;
+	}
+}
+#gib {
+	height: 65vh;
+}
